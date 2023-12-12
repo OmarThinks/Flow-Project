@@ -1,4 +1,6 @@
-function square(n) {
-  return n * n;
+function foo(x) {
+  if (x) {
+    return x;
+  }
+  return "default string";
 }
-square(2);
